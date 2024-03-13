@@ -1,10 +1,10 @@
 package accessmodifiers;
 
-public class PrivateModifier {
+public class PrivateModifierChild {
 
 	public static void main(String[] args) {
 		
-		SampleModifiers obj=new SampleModifiers();
+		PrivateModifiersParent obj=new PrivateModifiersParent();
 		obj.show();
 		System.out.println(obj.a);
 	}

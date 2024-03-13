@@ -1,6 +1,6 @@
 package encapsulation;
 
-public class GetterStudent {
+public class StudentGetter {
 
 	public static void main(String[] args) {
 		StudentEncaps obj=new StudentEncaps();

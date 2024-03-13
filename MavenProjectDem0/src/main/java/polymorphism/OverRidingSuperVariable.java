@@ -1,6 +1,6 @@
 package polymorphism;
 
-public class OverRidingSuper {
+public class OverRidingSuperVariable {
 	String name ="Java";
 	
 

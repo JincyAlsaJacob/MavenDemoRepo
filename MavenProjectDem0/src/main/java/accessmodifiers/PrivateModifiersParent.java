@@ -1,6 +1,6 @@
 package accessmodifiers;
 
-public class SampleModifiers {
+public class PrivateModifiersParent {
 	private int a =3;
 	private void show()
 	{
