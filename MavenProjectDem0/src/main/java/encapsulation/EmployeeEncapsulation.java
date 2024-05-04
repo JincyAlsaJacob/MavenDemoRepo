@@ -10,6 +10,7 @@ public class EmployeeEncapsulation {
 		this.name = name;
 	}
 	public int getAge() {
+		age=age*2;
 		return age;
 	}
 	public void setAge(int age) {

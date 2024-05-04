@@ -19,6 +19,8 @@ public class SizeMethod {
 		{
 			System.out.println(itr.next());      // Printing the element and move to next
 		}
+		itr.remove();
+		System.out.println(obj);
 
 	}
 

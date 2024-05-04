@@ -3,7 +3,7 @@ package aggregation;
 public class EmployeeChild {
 	String name;
 	int ID;
-	AddressParent address;
+	AddressParent address; //Aggregation globally declared
 	EmployeeChild(String name, int ID,AddressParent address)
 	{
 		this.name=name;
@@ -15,6 +15,7 @@ public class EmployeeChild {
 	{
 		System.out.println("name"+"  "+name+"   "+"ID"+"  "+ID);
 		System.out.println(address.country+"    "+address.state+"   "+address.city);
+	
 	}
 
 	public static void main(String[] args) {
@@ -25,6 +26,7 @@ public class EmployeeChild {
 		EmployeeChild ab1=new EmployeeChild("Anu",75,obj1);
 				ab.show();
 				ab1.show();
+			System.out.println(obj.state);
 
 	}
 
